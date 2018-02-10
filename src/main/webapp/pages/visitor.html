@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>visitor</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<!-- span 固定，而div不固定 bind 为自定义属性，通过JS在渲染页面时，自动加载值
+		具体见 common.js -->
+	姓名：<span bind="name"></span>&nbsp; 年龄：<span bind="age"></span>
+</body>
+
+<script src="../js/jquery-3.3.1.js"></script>
+<script src="../js/common.js"></script>
+<script>
+/* js 中方法的参数可以不全部传进去*/
+	frame.execute("xyg.study.servlet.TestAction", "sendData" );
+</script>
+</html>
